@@ -70,11 +70,18 @@ header {
     transition: 0,5s;
     border-radius: 25px;
 }
-.nav-link:hover {
+.nav-item:hover {
     background-color: #191919;
     border-radius: 25px;
 }
-.navbar-nav:hover .nav-link:not(:hover){
+.offcanvas {
+    align-items: end;
+}
+.offcanvas-body {
+    width: 400px;
+    align-items: center;
+}
+.navbar-nav:hover .nav-item:not(:hover){
     opacity: 0,5;
     filter: blur(5px);
 }
